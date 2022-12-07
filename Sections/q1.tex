@@ -4,4 +4,25 @@
 
 \begin{document}
 
+% Summary. For this question, hand in your plot from part (a), append the code you used to produce your it, and submit a 2–3 sentence answer for part (b).
+
+\subsection{Part A}
+% (a) We will recreate a version of their Extended Data Fig. 4 on page 22. Recall that in this analysis, the authors showed how the county-level clustering coefficient relates to the county-level economic con- nectedness. This figure only shows the values for certain counties, and emphasizes that there is a lot of heterogeneity—for some counties there is a positive relationship, and for some counties the rela- tionship is negative. You’re curious what the effect looks like for all counties. Using the data you downloaded, the goal is to draw a scatterplot where the x-axis is the county-level clustering coefficient, the y-axis is the county-level economic connectedness, and every county is represented by a point in this space. To make this task easier, you can use the replication code the authors have provided (https://opportunityinsights.org/wp-content/uploads/2022/08/social_capital_replication.zip), although it is written in Stata. If you aren’t familiar with Stata, you can use whatever software you are comfortable with. Don’t worry about typesetting or aesthetic considerations.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\linewidth]{{clustering_ec.png}}
+    \caption[]{Clustering of all counties as plotted against the economic connectedness of a county.}
+    \label{fig:clus_ec}
+\end{figure}
+
+\subsection{Part B}
+% (b) If the authors hadn’t looked at particular counties as in their paper, and only looked at the overall effect as done in part (a), would their interpretations and conclusions have changed? Explain in 2–3 sentences. 
+
+Looking at the overall counties, there seems to be no correlations. 
+Maybe there is a slight negative correlation as the clustering increases, but is very minor and few counties have very high clustering.
+However, the results of Chetty \textit{et al.} make sense under some relevant assumptions.
+They take ZIP Codes within a county for consideration, and that reveals some underlying correlations. 
+Therefore, their conclusions still hold. 
+
 \end{document}
