@@ -1,19 +1,19 @@
 Articles
-# .vscode
-# *.aux
-# *.latexmk
-# *.fls
-# *.lot
-# *.log
-# *.synctex.gz
-# *.fdb_latexmk
-# *sample_post.txt
-# sample_post.txt
-# *.bcf
-# *.run.xml
-# *.bbl
-# *.blg
-# *.out
-# Data/*
-# *.synctex(busy)
-# .~lock*
+.vscode
+*.aux
+*.latexmk
+*.fls
+*.lot
+*.log
+*.synctex.gz
+*.fdb_latexmk
+*sample_post.txt
+sample_post.txt
+*.bcf
+*.run.xml
+*.bbl
+*.blg
+*.out
+Data/*
+*.synctex(busy)
+.~lock*
